@@ -66,13 +66,11 @@
             0% {
                 background-color: aqua;
                 position: absolute;
-                border: solid 1px;
                 bottom: 50px;
             }
             100% {
                 background-color: blue;
                 position: absolute;
-                border: solid 1px;
                 bottom: 100px;
             }
         }
