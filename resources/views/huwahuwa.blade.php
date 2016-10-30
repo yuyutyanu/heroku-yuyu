@@ -13,11 +13,11 @@
 
     <style media="screen">
       .box1{
-      border: solid 1px;
+      animation: anime1 5s ease -2s infinite alternate;
       }
-      @keyframes .box1 {
-        0% {width: 100px; height: 50px; background-color: aqua; position: absolute; bottom:0px;}
-        100% {width: 100px; height: 50px; background-color: blue; position: absolute; bottom:50px;}
+      @keyframes anime1 {
+        0% {width: 100px; height: 50px; background-color: aqua; position: absolute; bottom:0px;border: solid 1px;}
+        100% {width: 100px; height: 50px; background-color: blue; position: absolute; bottom:50px; border:solid 1px;}
       }
     </style>
   </body>
