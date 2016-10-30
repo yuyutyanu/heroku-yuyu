@@ -27,7 +27,7 @@
             width: 100px;
             height: 100px;
             animation: anime1 3s ease-in-out infinite alternate;
-            -webkit-animation: anime1 3s ease-in-out infinite alternate;
+            -webkit-animation: anime2 3s ease-in-out infinite alternate;
             margin-left: 5%;
         }
 
@@ -37,7 +37,7 @@
             border-radius: 50% 50% 50% 50%;
             margin-left: 30%;
             animation: anime1 3s ease-in-out -2s infinite alternate;
-            -webkit-animation: anime1 3s ease-in-out -2s infinite alternate;
+            -webkit-animation: anime2 3s ease-in-out -2s infinite alternate;
         }
 
         .box3 {
@@ -46,25 +46,23 @@
             border-radius: 50% 50% 50% 50%;
             margin-left: 65%;
             animation: anime1 3s ease-in-out -4s infinite alternate;
-            -webkit-animation: anime1 3s ease-in-out -4s infinite alternate;
+            -webkit-animation: anime2 3s ease-in-out -4s infinite alternate;
         }
 
         @keyframes anime1 {
             0% {
                 background-color: aqua;
                 position: absolute;
-                border: solid 1px;
                 bottom: 50px;
             }
             100% {
                 background-color: blue;
                 position: absolute;
-                border: solid 1px;
                 bottom: 100px;
             }
         }
 
-        @-webkit-keyframes anime1 {
+        @-webkit-keyframes anime2 {
             0% {
                 background-color: aqua;
                 position: absolute;
